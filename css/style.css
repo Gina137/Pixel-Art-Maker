@@ -1,0 +1,66 @@
+body {
+    text-align: center;
+    background-image: url("../images/colored.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header,section,footer
+{
+    display: none;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+p{
+    font-size: 1.5em;
+}
+#submit
+{
+    border-radius: 25%;
+    background-color: rgb(152, 192, 228);
+    width: 8em;
+    height: 3em;
+    font-size: 1em;
+}
+#submit:hover
+{
+    box-shadow: 0.3em 0.2em 2em blue;
+
+}
+footer{
+    margin-top: 10em;
+}
